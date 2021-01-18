@@ -1,0 +1,173 @@
+/*   Header   */
+
+.header {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+.header_inner {
+    border-bottom: 1px solid #6a8485;
+}
+
+.logo_link {
+    color: #ffffff;
+}
+
+.phone_line {
+    background-color: #617576;
+}
+
+.fa-phone {
+    color: #c4cccc;
+}
+
+.phone_num {
+    color: #ffffff;
+}
+
+.nav_link {
+    color: #ffffff;
+}
+
+.header_inner_but {
+    background-color: #7d8e8e;
+}
+
+/*    Intro      */
+.intro {
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 85px;
+    width: 100%;
+    z-index: -1;
+    height: 600px;
+    filter: grayscale(20%);
+    background: linear-gradient(rgba(45, 110, 112, 0.8), rgba(45, 110, 112, 0.8)),
+    #2d6e70 url("../Images/intro.jpg") no-repeat center /cover;
+}
+
+.intro_inner {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.intro_title {
+    font-size: 50px;
+    line-height: 60px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro_inner_button_cont {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.intro_inner_button {
+    margin: 0 auto;
+    width: 230px;
+    height: 50px;
+    background-color: #6fb048;
+    border: none;
+    outline: none;
+}
+
+.intro_inner_button > span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+/*    Main    */
+main {
+    padding-top: 600px;
+    /*height: 2000px;*/
+}
+
+.about_us_cont {
+    width: 100%;
+    /*height: 545px;*/
+}
+
+.our_team_cont {
+    width: 100%;
+    height: 660px;
+    background-color: #eef1ec;
+    padding-top: 70px;
+}
+
+.down_cont {
+    background: linear-gradient(rgba(111, 176, 72, 0.95), rgba(111, 176, 72, 0.95)),
+    #6fb048 url("../Images/office image.png") no-repeat center /cover;
+}
+
+._3_block {
+    display: flex;
+    width: 100%;
+    margin: 100px 0 0 auto;
+    justify-content: center;
+}
+
+.our_team_3_block {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ionicons_cont, .photoshop_and_sketches_cont {
+    width: 340px;
+    height: 100%;
+}
+
+.creative_design_cont {
+    width: 380px;
+    height: 100%;
+}
+
+.el_title_pad {
+    padding-top: 28px;
+}
+
+.el_desc_pad {
+    padding-top: 20px;
+}
+
+.underline {
+    margin: 25px 0 40px;
+}
+
+.our_team_3_block .block_description {
+    text-align: left;
+}
+
+
+.description_meet_our_team {
+    height: 57px;
+}
+
+.down_cont_text p:nth-child(1) {
+    color: #ffffff;
+}
+
+.down_cont_text p:nth-child(2) {
+    color: #ffffff;
+}
+
+.download_button {
+    background-color: #49732f;
+}
+
+.download_button > span {
+    color: #ffffff;
+}
+

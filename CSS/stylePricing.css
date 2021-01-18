@@ -1,0 +1,218 @@
+/*   Header    */
+.header{
+    background-color: #eef1ec;
+}
+.header_inner {
+    border-bottom: 1px solid  #83a7a5;
+}
+
+.logo_link {
+    color: #0f5f5c;
+}
+
+.phone_line {
+    background-color: #83a7a5;;
+}
+
+.fa-phone {
+    color: #83a7a5;
+}
+
+.phone_num {
+    color: #83a7a5;;
+}
+
+.nav_link {
+    color: #83a7a5;
+}
+
+.header_inner_but {
+    background-color: #6fb048;
+}
+
+/*    Intro      */
+.intro {
+    justify-content: center;
+    padding: 60px 0;
+    width: 100%;
+    z-index: -1;
+    /*height: 600px;*/
+    background-color: #eef1ec;
+}
+
+.intro_inner {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.intro_title {
+    font-size: 32px;
+    line-height: 38px;
+    color: #0f5f5c;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro_inner .description{
+    max-width:380px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0 30px;
+}
+
+.plan{
+    width: 255px;
+    height: 360px;
+    padding: 25px 60px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #c1d3d2;
+    justify-content: space-between;
+}
+
+.plan_type{
+    font-size: 15px;
+    line-height: 20px;
+    color: #6fb048;
+    font-weight: 500;
+    font-family: "Roboto";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.plan_price_month{
+    color: #0f5f5c;
+    font-weight: 400;
+    text-align: center;
+}
+
+.plan_price_month p:nth-child(1){
+    font-family: "Montserrat";
+    font-size: 65px;
+}
+
+.plan_price_month p:nth-child(2){
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+.plan_description{
+    font-size: 14px;
+    line-height: 28px;
+    color: #83a7a5;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.plan_button{
+    width: 140px;
+    height: 42px;
+    border-radius: 2px;
+    background-color: #83a7a5;
+    border: none;
+    outline: none;
+}
+
+.plus .plan_button{
+    background-color: #6fb048;
+}
+
+.plan_button > span{
+    font-size: 13px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*    Main   */
+
+.pricing{
+    padding:75px 0 90px 0;
+}
+
+.add-ons_blocks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-ons_block{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 36px;
+    color: #83a7a5;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.add-ons_block img{
+    margin-right:10px ;
+}
+
+.help_cont{
+    align-items: center;
+}
+
+.help_logo{
+    margin: 60px 0 20px;
+}
+
+.help_title{
+    font-size: 32px;
+    line-height: 20px;
+    color: #6fb048;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.help_cont .description{
+    max-width:560px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.help_email{
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #0f5f5c;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.down_cont {
+    background: linear-gradient(rgba(238, 241, 236, 0.9), rgba(238, 241, 236, 0.9)),
+    #eef1ec url("../Images/office image.png") no-repeat center /cover;
+}
+
+.down_cont_text p:nth-child(1) {
+    color: #0f5f5c;
+}
+
+.down_cont_text p:nth-child(2) {
+    color: #0f5f5c;
+}
+
+.download_button {
+    background-color: #6fb048;
+}
+
+.download_button > span {
+    color: #ffffff;
+}
