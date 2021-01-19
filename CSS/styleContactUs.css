@@ -73,7 +73,7 @@ form textarea {
     line-height: 21px;
     color: #83a7a5;
     font-weight: 400;
-    font-family: "Roboto";
+    font-family: "Roboto",sans-serif;
     padding: 10px 0 0 10px;
     outline: none;
     resize: none;
@@ -98,7 +98,7 @@ form textarea::placeholder {
     line-height: 22px;
     color: #ffffff;
     font-weight: 400;
-    font-family: "Montserrat";
+    font-family: "Montserrat",sans-serif;
     text-align: center;
 }
 
@@ -133,7 +133,7 @@ form textarea::placeholder {
     line-height: 21px;
     color: #83a7a5;
     font-weight: 400;
-    font-family: "Roboto";
+    font-family: "Roboto",sans-serif;
 }
 
 .mail_address{

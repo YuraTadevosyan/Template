@@ -51,7 +51,7 @@
     line-height: 38px;
     color: #0f5f5c;
     font-weight: 300;
-    font-family: "Roboto";
+    font-family: "Roboto",sans-serif;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -84,7 +84,7 @@
     line-height: 20px;
     color: #6fb048;
     font-weight: 500;
-    font-family: "Roboto";
+    font-family: "Roboto",sans-serif;
     text-align: center;
     text-transform: uppercase;
 }
@@ -96,13 +96,13 @@
 }
 
 .plan_price_month p:nth-child(1){
-    font-family: "Montserrat";
+    font-family: "Montserrat",sans-serif;
     font-size: 65px;
 }
 
 .plan_price_month p:nth-child(2){
     font-size: 14px;
-    font-family: "Roboto";
+    font-family: "Roboto",sans-serif;
 }
 
 .plan_description{
@@ -110,7 +110,7 @@
     line-height: 28px;
     color: #83a7a5;
     font-weight: 400;
-    font-family: "Roboto";
+    font-family: "Roboto",sans-serif;
     text-align: center;
 }
 
@@ -132,7 +132,7 @@
     line-height: 22px;
     color: #ffffff;
     font-weight: 400;
-    font-family: "Montserrat";
+    font-family: "Montserrat",sans-serif;
     text-align: center;
     text-transform: uppercase;
 }
@@ -156,7 +156,7 @@
     line-height: 36px;
     color: #83a7a5;
     font-weight: 400;
-    font-family: "Roboto";
+    font-family: "Roboto",sans-serif;
 }
 
 .add-ons_block img{
@@ -176,7 +176,7 @@
     line-height: 20px;
     color: #6fb048;
     font-weight: 300;
-    font-family: "Roboto";
+    font-family: "Roboto",sans-serif;
     text-align: center;
 }
 
@@ -192,7 +192,7 @@
     line-height: 20px;
     color: #0f5f5c;
     font-weight: 400;
-    font-family: "Roboto";
+    font-family: "Roboto",sans-serif;
     text-align: center;
 }
 
