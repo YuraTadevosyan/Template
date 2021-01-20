@@ -1,0 +1,161 @@
+/*   Header   */
+
+.header {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+.header_inner {
+    border-bottom: 1px solid #6a8485;
+}
+
+.logo_link {
+    color: #ffffff;
+}
+
+.phone_line {
+    background-color: #617576;
+}
+
+.fa-phone {
+    color: #c4cccc;
+}
+
+.phone_num {
+    color: #ffffff;
+}
+
+.nav_link {
+    color: #ffffff;
+}
+
+.header_inner_but {
+    background-color: #7d8e8e;
+}
+
+/*    Intro      */
+
+.intro {
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*padding-bottom: 200px;*/
+    width: 100%;
+    z-index: -1;
+    height: 660px;
+    filter: grayscale(20%);
+    background: linear-gradient(rgba(45, 110, 112, 0.8), rgba(45, 110, 112, 0.8)),
+    #2d6e70 url("../Images/intro_home.png") no-repeat top /cover;
+}
+
+.intro_inner {
+    width: 100%;
+    max-width: 1026px;
+    margin: 0 auto;
+}
+
+.intro_title {
+    font-size: 38px;
+    line-height: 21px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto",sans-serif;
+    margin-bottom: 30px;
+    text-align: start;
+}
+
+.intro_description{
+    width: 513px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto",sans-serif;
+    text-align: start;
+}
+
+.intro_inner_button_cont {
+    justify-content: center;
+    margin: 25px auto 0;
+}
+
+.intro_inner_button {
+    margin: 0 auto;
+    width: 230px;
+    height: 50px;
+    background-color: #6fb048;
+    border: none;
+    outline: none;
+}
+
+.intro_inner_button > span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+}
+
+/*    Main    */
+main {
+    padding-top: 660px;
+    /*height: 2000px;*/
+}
+
+.about_us_cont{
+    min-height: 400px;
+    height: 400px;
+}
+
+._3_block{
+    margin: 35px 0 0 auto;
+}
+
+.lines{
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.vertical_line{
+    width: 2px;
+    height: 90px;
+    background-color: #f2f2f2;
+}
+
+.horizontal_line{
+    width: 90px;
+    height: 2px;
+    background-color: #f2f2f2;
+}
+
+.prices{
+    width: 100%;
+}
+
+.prices_inner {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+
+.prices_inner .description{
+    margin: 0 auto;
+}
+
+.prices_title{
+    font-size: 32px;
+    line-height: 20px;
+    color: #0f5f5c;
+    font-weight: 300;
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+
+.pricing_title > span{
+    font-size: 22px;
+}
