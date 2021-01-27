@@ -93,16 +93,16 @@ main {
     /*height: 2000px;*/
 }
 
-.about_us_cont {
-    width: 100%;
+.about {
+    padding-bottom: 110px;
     /*height: 545px;*/
 }
 
 .our_team_cont {
     width: 100%;
-    height: 660px;
     background-color: #eef1ec;
     padding-top: 70px;
+    padding-bottom: 120px;
 }
 
 .down_cont {
@@ -110,40 +110,18 @@ main {
     #6fb048 url("../Images/office image.png") no-repeat center /cover;
 }
 
-._3_block {
-    display: flex;
-    width: 100%;
-    margin: 100px 0 0 auto;
-    justify-content: center;
-}
-
 .our_team_3_block {
     display: flex;
-    text-align: left;
-    justify-content: space-between;
+    max-width: 996px;
+    /*text-align: left;*/
+    justify-content: space-around;
     width: 100%;
+    margin-top: 85px;
+    flex-wrap: wrap;
 }
 
-.ionicons_cont, .photoshop_and_sketches_cont {
-    width: 340px;
-    height: 100%;
-}
-
-.creative_design_cont {
-    width: 380px;
-    height: 100%;
-}
-
-.el_title_pad {
-    padding-top: 28px;
-}
-
-.el_desc_pad {
-    padding-top: 20px;
-}
-
-.underline {
-    margin: 25px 0 40px;
+.our_team_3_block .block_description{
+    width: 100%;
 }
 
 .our_team_3_block .block_description {

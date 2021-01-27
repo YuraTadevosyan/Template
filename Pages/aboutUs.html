@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../assets/libs/fontawesome/all.min.css">
     <link rel="stylesheet" href="../assets/CSS/style.css">
     <link rel="stylesheet" href="../assets/CSS/styleAboutUs.css">
+    <link rel="stylesheet" href="../assets/CSS/response.css">
 </head>
 <body>
 <header class="header">
@@ -17,7 +18,8 @@
         <div class="header_inner">
             <div class="log_phone">
                 <div class="header_logo">
-                    <a href="#" class="logo_link">Wapik</a>
+                    <!--                    <a href="#" class="logo_link">Wapik</a>-->
+                    <img src="../assets/Images/WAPIK_white_logo.png" alt="header_logo">
                 </div>
                 <div class="phone">
                     <p class="phone_line"></p>
@@ -32,6 +34,11 @@
                 <a href="#" class="nav_link">Contact Us</a>
                 <button class="header_inner_but effect effect_green"><span>Get Started</span></button>
             </nav>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </div>
 </header>
@@ -47,16 +54,17 @@
     </div>
 </section>
 <main class="main cont_col">
-    <div class="container">
-        <div class="about_inner">
-            <section class="about_us_cont cont_col">
-                <div class="container">
+    <div class="about">
+        <div class="container">
+            <div class="about_inner inner">
+                <section class="about_us_cont cont_col">
                     <div class="about_us_title cont_col main_title">
                         <span>About Us</span>
                         <p class="underline"></p>
                     </div>
                     <div class="about_us_description cont_col desc_cont">
-                        <div class="description">Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
+                        <div class="description">
+                            Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
                             eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus.
                             Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
                             ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id
@@ -90,7 +98,8 @@
                         </div>
                         <div class="photoshop_and_sketches_cont cont_col">
                             <div class="block_img">
-                                <img src="../assets/Images/photoshop_and_sketch_logo.png" alt="photoshop_and_sketch_logo">
+                                <img src="../assets/Images/photoshop_and_sketch_logo.png"
+                                     alt="photoshop_and_sketch_logo">
                             </div>
                             <div class="block_title el_title_pad"><span>Photoshop and Sketch</span></div>
                             <div class="block_description el_desc_pad">
@@ -99,48 +108,46 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
     </div>
     <section class="our_team_cont">
         <div class="container">
-            <div class="our_team_title cont_col main_title">
-                <span>Meet Our Team</span>
-                <p class="underline"></p>
-            </div>
-            <div class="our_team_description cont_col desc_cont">
-                <div class="description">
-                    Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi erat porttitor
-                    ligula,
-                    eget lacinia odio sem nec elit. Cum sociis natoque penatibus et magnis dis parturient montes,
-                    nascetur ridiculus mus.
+            <div class="our_team_inner inner">
+                <div class="our_team_title cont_col main_title">
+                    <span>Meet Our Team</span>
+                    <p class="underline"></p>
                 </div>
-            </div>
-            <div class="_3_block">
-                <div class="our_team_3_block">
-                    <div class="cont">
-                        <div class="person1 cont_col">
-                            <div class="block_img">
-                                <img src="../assets/Images/Joyce.png" alt="Joyce image">
-                            </div>
-                            <div class="block_title"><span>Joyce Hudson</span></div>
-                            <div class="block_description"><span>Founder & Designer</span></div>
+                <div class="our_team_description cont_col desc_cont">
+                    <div class="description">
+                        Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus, nisi erat porttitor
+                        ligula,
+                        eget lacinia odio sem nec elit. Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus.
+                    </div>
+                </div>
+                <div class="our_team_3_block inner">
+                    <div class="person1 cont_col">
+                        <div class="block_img">
+                            <img src="../assets/Images/Joyce.png" alt="Joyce image">
                         </div>
-                        <div class="person2 cont_col">
-                            <div class="block_img">
-                                <img src="../assets/Images/Angela.png" alt="Angela image">
-                            </div>
-                            <div class="block_title dir_left"><span>Angela Campbell</span></div>
-                            <div class="block_description"><span>Project Manager</span></div>
+                        <div class="block_title"><span>Joyce Hudson</span></div>
+                        <div class="block_description"><span>Founder & Designer</span></div>
+                    </div>
+                    <div class="person2 cont_col">
+                        <div class="block_img">
+                            <img src="../assets/Images/Angela.png" alt="Angela image">
                         </div>
-                        <div class="person3 cont_col">
-                            <div class="block_img">
-                                <img src="../assets/Images/James.png" alt="James image">
-                            </div>
-                            <div class="block_title "><span>James Walker</span></div>
-                            <div class="block_description"><span>Developer</span></div>
+                        <div class="block_title dir_left"><span>Angela Campbell</span></div>
+                        <div class="block_description"><span>Project Manager</span></div>
+                    </div>
+                    <div class="person3 cont_col">
+                        <div class="block_img">
+                            <img src="../assets/Images/James.png" alt="James image">
                         </div>
+                        <div class="block_title "><span>James Walker</span></div>
+                        <div class="block_description"><span>Developer</span></div>
                     </div>
                 </div>
             </div>
@@ -148,13 +155,14 @@
     </section>
     <section class="down_cont">
         <div class="container">
-            <div class="cont">
+            <div class="down_cont_inner inner">
                 <div class="down_cont_text">
                     <p>Do You Like Wapik? Download it Now</p>
                     <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
                 </div>
                 <div class="down_cont_button">
-                    <button class="download_button effect effect_gray"><span>download now! - FREE forever</span></button>
+                    <button class="download_button effect effect_gray"><span>download now! - FREE forever</span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -162,7 +170,7 @@
 </main>
 <footer class="footer">
     <div class="container">
-        <div class="footer_inner">
+        <div class="footer_inner inner">
             <div class="footer_inner_col1 foot_col cont_col">
                 <p>Wapik</p>
                 <p>@: <span>hi@wapik.com</span></p>
@@ -189,22 +197,34 @@
                 <p>Subscribe to our newsletter and get all</p>
                 <p>the cool news</p>
                 <div class="sub_email">
-                    <input type="text" placeholder="&nbsp &nbsp Enter Email" value="">
+                    <label for="enterEmail"></label>
+                    <input type="text" id="enterEmail" placeholder="&nbsp &nbsp Enter Email" value="">
                     <img src="../assets/Images/sub_vector.png" alt="">
                 </div>
             </div>
         </div>
-        <div class="footer_outer">
+        <div class="footer_outer inner">
             <p class="rights">All rights reserved 2015</p>
             <div class="social_media">
-                <img src="../assets/Images/twitter.png" alt="twitter icon">
-                <img src="../assets/Images/facebook.png" alt="facebook icon">
-                <img src="../assets/Images/instagram.png" alt="instagram icon">
-                <img src="../assets/Images/dribble.png" alt="dribble icon">
-                <img src="../assets/Images/github.png" alt="github icon">
+                <div class="twitter_logo social_media_logo">
+                    <img src="../assets/Images/Icons/twitter.svg" alt="twitter icon">
+                </div>
+                <div class="facebook_logo social_media_logo">
+                    <img src="../assets/Images/Icons/facebook.svg" alt="facebook icon">
+                </div>
+                <div class="instagram_logo social_media_logo">
+                    <img src="../assets/Images/Icons/instagram.svg" alt="instagram icon">
+                </div>
+                <div class="dribble_logo social_media_logo">
+                    <img src="../assets/Images/Icons/dribble.svg" alt="dribble icon">
+                </div>
+                <div class="github_icons social_media_logo">
+                    <img src="../assets/Images/Icons/github.svg" alt="github icon">
+                </div>
             </div>
         </div>
     </div>
 </footer>
+<script src="../assets/JS/main.js"></script>
 </body>
 </html>

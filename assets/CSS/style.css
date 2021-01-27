@@ -125,11 +125,11 @@ h1, h2, h3, h4, h5, h6, span, button, p {
 
 /*    Burger    */
 
-.burger{
+.burger {
     display: none;
 }
 
-.burger{
+.burger {
     width: 35px;
     height: 30px;
     margin: 10px 10px;
@@ -137,52 +137,61 @@ h1, h2, h3, h4, h5, h6, span, button, p {
     cursor: pointer;
     /*display: inline-block;*/
 }
-.burger span{
-    background-color:#fff;
+
+.burger span {
+    background-color: #fff;
     position: absolute;
     border-radius: 2px;
     transition: .3s cubic-bezier(.8, .5, .2, 1.4);
-    width:100%;
+    width: 100%;
     height: 4px;
 }
-.burger span:nth-child(1){
-    top:0;
+
+.burger span:nth-child(1) {
+    top: 0;
     left: 0;
 }
-.burger span:nth-child(2){
-    top:13px;
+
+.burger span:nth-child(2) {
+    top: 13px;
     left: 0;
 }
-.burger span:nth-child(3){
-    bottom:0;
+
+.burger span:nth-child(3) {
+    bottom: 0;
     left: 0;
 }
-.burger:not(.open):hover span:nth-child(1){
-    transform:  scaleY(1.2);
+
+.burger:not(.open):hover span:nth-child(1) {
+    transform: scaleY(1.2);
     left: -5px;
 }
-.burger:not(.open):hover span:nth-child(2){
+
+.burger:not(.open):hover span:nth-child(2) {
     transform: rotate(5deg) scaleY(1.1);
 }
-.burger:not(.open):hover span:nth-child(3){
-    transform:  scaleY(1.2);
+
+.burger:not(.open):hover span:nth-child(3) {
+    transform: scaleY(1.2);
     left: 5px;
 }
-.burger.open span:nth-child(1){
+
+.burger.open span:nth-child(1) {
     transform: rotate(45deg) scaleX(0.7);
     top: 13px;
     left: -8px;
 }
-.burger.open span:nth-child(2){
+
+.burger.open span:nth-child(2) {
     transform: scale(0);
     transition-duration: 50ms
 }
-.burger.open span:nth-child(3){
+
+.burger.open span:nth-child(3) {
     transform: rotate(-45deg) scaleX(0.7);
     top: 13px;
     left: 7px;
 }
-
 
 
 /*   Main   */
@@ -191,12 +200,16 @@ main {
     width: 100%;
 }
 
-.about_inner {
+.about_inner,.our_team_inner {
     display: flex;
     width: 100%;
     max-width: 1056px;
     margin: 0 auto;
     align-items: center;
+}
+
+.our_team_inner{
+    flex-direction: column;
 }
 
 .down_cont_inner {
@@ -238,7 +251,7 @@ main {
     flex-wrap: wrap;
 }
 
-.ionicons_cont, .photoshop_and_sketches_cont,.creative_design_cont {
+.ionicons_cont, .photoshop_and_sketches_cont, .creative_design_cont {
     height: 100%;
 }
 
@@ -343,23 +356,26 @@ footer {
 
 .footer_inner, .footer_outer {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     max-width: 1056px;
     margin: 0 auto;
+
+    flex-wrap: wrap;
 }
 
 .footer_inner {
+    align-items: baseline;
     padding: 90px 0 60px;
 }
 
 .footer_outer {
     padding: 25px 0;
     border-top: 1px solid #eef1ec;
+    align-items: center;
 }
 
 .foot_col {
-    width: 25%;
+    margin-top: 10px
 }
 
 
@@ -391,25 +407,28 @@ footer {
     font-family: "Poppins", sans-serif;
 }
 
+.footer_inner_col4 input{
+    padding: 0;
+}
+
 .sub_email {
-    position: relative;
-    width: 100%;
-}
-
-.sub_email > img {
-    position: absolute;
-    right: 45px;
-    top: 9px;
-}
-
-input {
-    width: 241px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* width: 240px; */
     height: 36px;
     border-radius: 3px;
     background-color: #eef1ec;
+    padding: 0 15px;
+}
+
+input {
+    height: 100%;
+    background-color: transparent;
     outline: none;
     border: none;
     padding: 0 30px 0 10px;
+    color: #83a7a5
 }
 
 input::placeholder {
@@ -422,9 +441,44 @@ input::placeholder {
     align-items: center;
 }
 
-.social_media img {
+.social_media_logo {
+    display: flex;
+    align-items: center;
     margin: 0 3px;
     cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 15px;
+    transition: all 2s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+
+.social_media_logo img {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    filter: invert(0);
+    transition: 10s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.twitter_logo {
+    background-color: #55acee;
+}
+
+.facebook_logo {
+    background-color: #3b5998;
+}
+
+.instagram_logo {
+    background-color: #3f729b;
+}
+
+.dribble_logo {
+    background-color: #ea4c89;
+}
+
+.github_icons {
+    background-color: #333333;
 }
 
 .rights {
@@ -490,7 +544,7 @@ input::placeholder {
 }
 
 
-/*         a Tags      */
+/*         a Tags        */
 
 a:hover {
     opacity: 1;
@@ -498,3 +552,13 @@ a:hover {
 }
 
 
+/*        Svg Logos      */
+
+.social_media_logo:hover {
+    border: 1px solid black;
+    background-color: white;
+}
+
+.social_media_logo:hover img {
+    filter: invert(1);
+}

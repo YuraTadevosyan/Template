@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../assets/libs/fontawesome/all.min.css">
     <link rel="stylesheet" href="../assets/CSS/style.css">
     <link rel="stylesheet" href="../assets/CSS/styleContactUs.css">
+    <link rel="stylesheet" href="../assets/CSS/response.css">
 </head>
 <body>
 <header class="header">
@@ -17,7 +18,8 @@
         <div class="header_inner">
             <div class="log_phone">
                 <div class="header_logo">
-                    <a href="#" class="logo_link">Wapik</a>
+<!--                    <a href="#" class="logo_link">Wapik</a>-->
+                    <img src="../assets/Images/WAPIK_green_logo.png" alt="header_logo">
                 </div>
                 <div class="phone">
                     <p class="phone_line"></p>
@@ -30,8 +32,13 @@
                 <a href="#" class="nav_link">About Us</a>
                 <a href="#" class="nav_link">Pricing</a>
                 <a href="#" class="nav_link">Contact Us</a>
-                <button class="header_inner_but effect effect_gray""><span>Get Started</span></button>
+                <button class="header_inner_but effect effect_gray"><span>Get Started</span></button>
             </nav>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </div>
 </header>
@@ -57,7 +64,7 @@
                         <input type="text" name="User Phone Number" placeholder="Phone">
                         <textarea name="User Message" cols="30" rows="10" placeholder="Message"></textarea>
                     </form>
-                    <button class="submit effect effect_gray""><span>Send Message</span></button>
+                    <button class="submit effect effect_gray"><span>Send Message</span></button>
                 </div>
                 <div class="headquarter cont_col">
                     <div class="headquarter_title">
@@ -84,13 +91,14 @@
     </section>
     <section class="down_cont">
         <div class="container">
-            <div class="cont">
+            <div class="down_cont_inner inner">
                 <div class="down_cont_text">
                     <p>Do You Like Wapik? Download it Now</p>
                     <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
                 </div>
                 <div class="down_cont_button">
-                    <button class="download_button effect effect_gray""><span>download now! - FREE forever</span></button>
+                    <button class="download_button effect effect_gray"><span>download now! - FREE forever</span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -98,7 +106,7 @@
 </main>
 <footer class="footer">
     <div class="container">
-        <div class="footer_inner">
+        <div class="footer_inner inner">
             <div class="footer_inner_col1 foot_col cont_col">
                 <p>Wapik</p>
                 <p>@: <span>hi@wapik.com</span></p>
@@ -125,22 +133,34 @@
                 <p>Subscribe to our newsletter and get all</p>
                 <p>the cool news</p>
                 <div class="sub_email">
-                    <input type="text" placeholder="&nbsp &nbsp Enter Email" value="">
+                    <label for="enterEmail"></label>
+                    <input type="text" id="enterEmail" placeholder="&nbsp &nbsp Enter Email" value="">
                     <img src="../assets/Images/sub_vector.png" alt="">
                 </div>
             </div>
         </div>
-        <div class="footer_outer">
+        <div class="footer_outer inner">
             <p class="rights">All rights reserved 2015</p>
             <div class="social_media">
-                <img src="../assets/Images/twitter.png" alt="twitter icon">
-                <img src="../assets/Images/facebook.png" alt="facebook icon">
-                <img src="../assets/Images/instagram.png" alt="instagram icon">
-                <img src="../assets/Images/dribble.png" alt="dribble icon">
-                <img src="../assets/Images/github.png" alt="github icon
+                <div class="twitter_logo social_media_logo">
+                    <img src="../assets/Images/Icons/twitter.svg" alt="twitter icon">
+                </div>
+                <div class="facebook_logo social_media_logo">
+                    <img src="../assets/Images/Icons/facebook.svg" alt="facebook icon">
+                </div>
+                <div class="instagram_logo social_media_logo">
+                    <img src="../assets/Images/Icons/instagram.svg" alt="instagram icon">
+                </div>
+                <div class="dribble_logo social_media_logo">
+                    <img src="../assets/Images/Icons/dribble.svg" alt="dribble icon">
+                </div>
+                <div class="github_icons social_media_logo">
+                    <img src="../assets/Images/Icons/github.svg" alt="github icon">
+                </div>
             </div>
         </div>
     </div>
 </footer>
+<script src="../assets/JS/main.js"></script>
 </body>
 </html>

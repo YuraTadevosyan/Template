@@ -30,6 +30,10 @@
     background-color: #6fb048;
 }
 
+.burger span{
+    background-color: #0f5f5c;
+}
+
 /*    Intro      */
 .intro {
     justify-content: center;

@@ -10,15 +10,13 @@
         max-width: calc(100% - 5%);
     }
 
-    .add-ons_blocks{
+    .add-ons_blocks {
         justify-content: space-between;
     }
 }
 
 
-
-
-@media(max-width: 1099px){
+@media (max-width: 1099px) {
     .container {
         max-width: calc(100% - 10%);
     }
@@ -27,97 +25,103 @@
         max-width: calc(100% - 5%);
     }
 
-    ._3_block{
+    ._3_block {
         justify-content: space-around;
     }
 
-    .block_img{
+    .block_img {
         margin-top: 25px;
     }
 
-    .others_inner{
+    .others_inner {
         flex-direction: column;
     }
 
-    .others_title_logo{
+    .others_title_logo {
         margin-top: 25px;
     }
 
-    .others_inner .block_description{
+    .others_inner .block_description {
         text-align: center;
     }
 
-    .response_ready_context{
+    .response_ready_context {
         justify-content: space-around;
     }
 }
 
 @media (max-width: 991px) {
-    .nav{
+    .nav {
         display: none;
     }
 
-    .burger{
+    .burger {
         display: block;
     }
 
-    .down_cont_inner{
+    .down_cont_inner {
         flex-direction: column;
     }
 
-    .download_button{
+    .download_button {
         margin-top: 25px;
     }
 }
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1099px) {
-    ._2nd,._3rd{
+    ._2nd, ._3rd {
         align-items: center;
     }
 
-    ._4th{
+    ._4th {
         align-items: flex-end;
     }
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-    ._2nd,._3rd{
+    ._2nd, ._3rd {
         align-items: center;
     }
 
-    ._4th{
+    ._4th {
         align-items: flex-end;
     }
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-    .description{
-        width: 100%;
+    .main_title, .down_cont_text p:nth-child(1), .intro_title {
+        font-size: 25px;
     }
 
-    .intro_title,.intro_description,.intro_inner_button_cont{
+    .description, .block_description, .response_ready_context_inner .description, .down_cont_text p:nth-child(2),
+    .intro_description {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .intro_title, .intro_description, .intro_inner_button_cont {
         text-align: center;
     }
 
-    .intro_description,.response_ready_context_inner .description{
+    .intro_description, .response_ready_context_inner .description {
         width: 100%;
     }
 
-    ._1st,._2nd,._3rd,._4th{
+    ._1st, ._2nd, ._3rd, ._4th {
         align-items: center;
     }
 
-    .quote_desc{
+    .quote_desc {
         width: 100%;
         height: 100%;
     }
 
-    .add-ons_blocks{
+    .add-ons_blocks {
         flex-direction: column;
-       justify-content: start;
+        justify-content: start;
         align-items: start;
     }
 
@@ -125,20 +129,79 @@
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
-    ._1st,._2nd,._3rd,._4th{
+    ._1st, ._2nd, ._3rd, ._4th {
         align-items: center;
+    }
+
+    .response_ready_image {
+        display: none;
+    }
+
+    .response_ready {
+        padding: 75px 0;
+    }
+
+    .response_ready_context_inner {
+        align-items: center;
+    }
+
+    .response_ready_context_inner .description {
+        text-align: center;
+    }
+
+    .social_media {
+        margin: 10px 0;
     }
 }
 
 
+/*      World        */
+
+@media (max-width: 1399px) {
+    .world {
+        background-blend-mode: luminosity;
+        background-position: center;
+    }
+
+    .world_inner {
+        justify-content: center;
+    }
+
+    .world_inner .description, .world_inner .world_context_title {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .world_context .description {
+        color: #0f5f5c;;
+    }
+}
 
 
-
-
-/*     Pricing      */
+/*      Pricing      */
 
 @media (max-width: 1035px) {
-    .plan{
-        margin:25px
+    .plan {
+        margin: 25px
+    }
+}
+
+
+/*     Contact Us html   */
+
+/*   Form & Headquarter  */
+
+@media (max-width: 946px) {
+
+    .form_headquarter {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .form input, form textarea {
+        width: 300px;
     }
 }
