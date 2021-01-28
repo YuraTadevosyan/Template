@@ -1,7 +1,7 @@
 /*!          Media          !*/
 
 /* Large desktops and laptops */
-@media (min-width: 1700px) {
+@media (min-width: 1850px) {
     .container {
         max-width: calc(100% - 10%);
     }
@@ -151,6 +151,10 @@
 
     .social_media {
         margin: 10px 0;
+    }
+
+    .phone {
+        display: none;
     }
 }
 

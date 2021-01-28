@@ -7,7 +7,7 @@ body {
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, span, button, p {
+h1, h2, h3, h4, h5, h6, span, button, p, ul, li {
     padding: 0;
     margin: 0;
 }
@@ -194,13 +194,76 @@ h1, h2, h3, h4, h5, h6, span, button, p {
 }
 
 
+.mobile_menu {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 10%;
+    top: 85px;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    z-index: 1000;
+    padding: 15vh 0 35vh;
+    border-radius: 25px;
+    box-shadow: 0 0 65px 65px #0f5f5c;
+    transform-origin: 0 0;
+    transform: translate(100%, -10%);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+
+.mobile_menu.open {
+    width: 80%;
+    height: 80vh;
+    visibility: visible;
+    transform: none;
+}
+
+
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    width: 100%;
+    height: 50vh;
+}
+
+
+ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #0f5f5c;
+    font-size: 2rem;
+}
+
+body.open_menu {
+    overflow: hidden;
+}
+
+
 /*   Main   */
 
 main {
     width: 100%;
 }
 
-.about_inner,.our_team_inner {
+.about_inner, .our_team_inner {
     display: flex;
     width: 100%;
     max-width: 1056px;
@@ -208,7 +271,7 @@ main {
     align-items: center;
 }
 
-.our_team_inner{
+.our_team_inner {
     flex-direction: column;
 }
 
@@ -407,7 +470,7 @@ footer {
     font-family: "Poppins", sans-serif;
 }
 
-.footer_inner_col4 input{
+.footer_inner_col4 input {
     padding: 0;
 }
 
@@ -546,7 +609,7 @@ input::placeholder {
 
 /*         a Tags        */
 
-a:hover {
+.header a:hover {
     opacity: 1;
     text-shadow: 0 0 20px;
 }
