@@ -48,6 +48,10 @@
     .response_ready_context {
         justify-content: space-around;
     }
+
+    .testimonials_inner{
+        justify-content: space-around;
+    }
 }
 
 @media (max-width: 991px) {
@@ -207,5 +211,9 @@
 
     .form input, form textarea {
         width: 300px;
+    }
+
+    .headquarter{
+        width: 100%;
     }
 }

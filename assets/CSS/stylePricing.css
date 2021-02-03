@@ -1,9 +1,10 @@
 /*   Header    */
-.header.pr{
+.header.pr {
     background-color: #eef1ec;
 }
+
 .header_inner {
-    border-bottom: 1px solid  #83a7a5;
+    border-bottom: 1px solid #83a7a5;
 }
 
 .logo_link {
@@ -26,47 +27,53 @@
     color: #83a7a5;
 }
 
+.nav_link.act {
+    opacity: 1;
+    color: #83a7a5;
+}
+
 .header_inner_but {
     background-color: #6fb048;
 }
 
-.burger span{
+.burger span {
     background-color: #0f5f5c;
 }
+
+
+/*!*    Main   *!*/
 
 /*    Intro      */
 .intro {
     justify-content: center;
-    padding: 60px 0;
     width: 100%;
-    z-index: -1;
     /*height: 600px;*/
     background-color: #eef1ec;
 }
 
 .intro_inner {
     width: 100%;
-    max-width: 850px;
+    max-width: 1056px;
     margin: 0 auto;
+    padding: 60px 0;
 }
 
-.intro_title {
+.intro_title > h2 {
     font-size: 32px;
     line-height: 38px;
     color: #0f5f5c;
     font-weight: 300;
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
     text-align: center;
-    margin-bottom: 30px;
 }
 
-.intro_inner .description{
-    max-width:380px;
+.intro_inner .description {
+    max-width: 380px;
     height: 100%;
     margin: 0 auto;
 }
 
-.plans{
+.plans {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,7 +83,7 @@
     flex-wrap: wrap;
 }
 
-.plan{
+.plan {
     width: 255px;
     height: 360px;
     padding: 25px 60px;
@@ -86,42 +93,42 @@
     justify-content: space-between;
 }
 
-.plan_type{
+.plan_type {
     font-size: 15px;
     line-height: 20px;
     color: #6fb048;
     font-weight: 500;
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
     text-align: center;
     text-transform: uppercase;
 }
 
-.plan_price_month{
+.plan_price_month {
     color: #0f5f5c;
     font-weight: 400;
     text-align: center;
 }
 
-.plan_price_month p:nth-child(1){
-    font-family: "Montserrat",sans-serif;
+.plan_price_month p:nth-child(1) {
+    font-family: "Montserrat", sans-serif;
     font-size: 65px;
 }
 
-.plan_price_month p:nth-child(2){
+.plan_price_month p:nth-child(2) {
     font-size: 14px;
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
-.plan_description{
+.plan_description {
     font-size: 14px;
     line-height: 28px;
     color: #83a7a5;
     font-weight: 400;
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
     text-align: center;
 }
 
-.plan_button{
+.plan_button {
     width: 140px;
     height: 42px;
     border-radius: 2px;
@@ -130,82 +137,79 @@
     outline: none;
 }
 
-.plus .plan_button{
+.plus .plan_button {
     background-color: #6fb048;
 }
 
-.plan_button > span{
+.plan_button > span {
     font-size: 13px;
     line-height: 22px;
     color: #ffffff;
     font-weight: 400;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     text-transform: uppercase;
 }
 
-/*    Main   */
 
-.pricing{
-    padding:75px 0 90px 0;
+/*  Pricing  */
+
+.pricing {
+    padding: 75px 0 90px 0;
 }
 
-.pricing_inner{
+.pricing_inner {
     max-width: 1056px;
     margin: 0 auto;
 }
 
-.add-ons_blocks{
+.add-ons_blocks {
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.add-ons_block{
+.add-ons_block {
     display: flex;
     align-items: center;
     font-size: 14px;
     line-height: 36px;
     color: #83a7a5;
     font-weight: 400;
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
-.add-ons_block img{
-    margin-right:10px ;
+.add-ons_block img {
+    margin-right: 10px;
 }
 
-.help_cont{
+.help_cont {
     align-items: center;
 }
 
-.help_logo{
+.help_logo {
     margin: 60px 0 20px;
 }
 
-.help_title{
-    font-size: 32px;
-    line-height: 20px;
-    color: #6fb048;
+.help_title > h2 {
     font-weight: 300;
-    font-family: "Roboto",sans-serif;
-    text-align: center;
+    color: #6fb048;
 }
 
-.help_cont .description{
-    max-width:560px;
+.help_cont .description {
+    max-width: 560px;
     height: 100%;
     margin: 0 auto;
 }
 
-.help_email{
+.help_email {
     margin-top: 40px;
     font-size: 18px;
     line-height: 20px;
     color: #0f5f5c;
     font-weight: 400;
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
     text-align: center;
 }
 
@@ -231,12 +235,11 @@
 }
 
 
-
 /*     Button Effect    */
 .effect_gray:hover {
     background-color: #83a7a5;
 }
 
-.effect_gray:after{
+.effect_gray:after {
     background: #83a7a5;
 }

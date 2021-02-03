@@ -33,13 +33,15 @@
     background-color: #7d8e8e;
 }
 
+
+/*!*    Main    *!*/
+
 /*    Intro      */
 
 .intro {
     justify-content: center;
     /*padding-bottom: 200px;*/
     width: 100%;
-    z-index: -1;
     height: 660px;
     filter: grayscale(20%);
     background: linear-gradient(rgba(45, 110, 112, 0.8), rgba(45, 110, 112, 0.8)),
@@ -96,11 +98,7 @@
     text-align: center;
 }
 
-/*    Main    */
-main {
-    padding-top: 100px;
-}
-
+/* About block*/
 
 ._3_block {
     margin: 35px 0 0 auto;
@@ -227,7 +225,7 @@ main {
     flex-direction: row;
     align-items: center;
     margin: 0 auto;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 1056px;
     flex-wrap: wrap-reverse;
 }
