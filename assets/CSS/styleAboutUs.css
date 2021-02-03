@@ -33,14 +33,14 @@
     background-color: #7d8e8e;
 }
 
+
+/*!*    Main    *!*/
+
 /*    Intro      */
 .intro {
     justify-content: center;
-    top: 0;
-    left: 0;
     padding-top: 85px;
     width: 100%;
-    z-index: -1;
     height: 600px;
     filter: grayscale(20%);
     background: linear-gradient(rgba(45, 110, 112, 0.8), rgba(45, 110, 112, 0.8)),
@@ -87,11 +87,8 @@
     text-align: center;
 }
 
-/*    Main    */
-main {
-    padding-top: 100px
-    /*height: 2000px;*/
-}
+
+/*  About  */
 
 .about {
     padding-bottom: 110px;

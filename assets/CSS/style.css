@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    height: 100vh;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -262,6 +263,11 @@ body.open_menu {
 
 main {
     width: 100%;
+    flex: 1;
+}
+
+.about{
+    padding: 100px 0;
 }
 
 .about_inner, .our_team_inner {
@@ -328,11 +334,11 @@ main {
     padding-top: 20px;
 }
 
-.main_title, .block_title {
+.main_title, .block_title,h2 {
     font-size: 32px;
-    /*line-height: 20px;*/
+    line-height: 40px;
     color: #0f5f5c;
-    /*font-weight: 300;*/
+    font-weight: 400;
     font-family: "Roboto", sans-serif;
 }
 

@@ -19,6 +19,11 @@
     color: #83a7a5;
 }
 
+.nav_link.act {
+    opacity: 1;
+    color: #83a7a5;
+}
+
 .header_inner_but {
     background-color: #6fb048;
 }
@@ -28,6 +33,10 @@
 }
 
 
+
+
+/*!*    Main    *!*/
+
 /*    Map   */
 .map {
     width: 100%;
@@ -36,10 +45,17 @@
     background: url("../Images/map.png") no-repeat center /cover;
 }
 
-/*    Main    */
+
+/* Contact */
 
 .contact {
-    margin: 80px 0;
+    padding: 80px 0;
+}
+
+.contact_inner{
+    width: 100%;
+    max-width: 1056px;
+    margin: 0 auto;
 }
 
 .contact_description {
@@ -117,7 +133,7 @@ form textarea::placeholder {
 
 .headquarter_title {
     font-size: 22px;
-    line-height: 21px;
+    line-height: 25px;
     font-weight: 300;
 }
 
