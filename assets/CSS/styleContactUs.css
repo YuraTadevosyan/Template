@@ -33,8 +33,6 @@
 }
 
 
-
-
 /*!*    Main    *!*/
 
 /*    Map   */
@@ -52,50 +50,45 @@
     padding: 80px 0;
 }
 
-.contact_inner{
+.contact_inner {
     width: 100%;
-    max-width: 1056px;
     margin: 0 auto;
+    max-width: 1056px;
 }
 
-.contact_description {
+.contact .description {
+    max-width: 440px;
     margin-bottom: 70px;
 }
 
-.underline {
-    margin: 25px 0;
-}
-
 .form_headquarter {
-    max-width: 1056px;
     display: flex;
-    justify-content: space-between;
-    /*align-items: center;*/
     margin: 0 auto;
-    /*padding:0 30px ;*/
     flex-wrap: wrap;
+    max-width: 1056px;
+    justify-content: space-between;
 }
 
 
 form input, form textarea {
     width: 510px;
     height: 46px;
-    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.12));
-    background-color: #ffffff;
-    border: 1px solid #c1d3d2;
     margin-bottom: 25px;
+    border: 1px solid #c1d3d2;
+    background-color: #ffffff;
+    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.12));
 }
 
 form textarea {
-    height: 124px;
-    font-size: 14px;
-    line-height: 21px;
-    color: #83a7a5;
-    font-weight: 400;
-    font-family: "Roboto", sans-serif;
-    padding: 10px 0 0 10px;
-    outline: none;
     resize: none;
+    outline: none;
+    height: 124px;
+    color: #83a7a5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    padding: 10px 0 0 10px;
+    font-family: "Roboto", sans-serif;
 }
 
 form textarea::placeholder {
@@ -103,38 +96,38 @@ form textarea::placeholder {
 }
 
 .submit {
+    border: 0;
     width: 192px;
     height: 42px;
-    border: 0;
-    border-radius: 3px;
-    background-color: #6fb048;
     outline: none;
+    border-radius: 3px;
     margin-bottom: 100px;
+    background-color: #6fb048;
 }
 
 .submit > span {
-    font-size: 13px;
-    line-height: 22px;
     color: #ffffff;
+    font-size: 13px;
     font-weight: 400;
-    font-family: "Montserrat", sans-serif;
+    line-height: 22px;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
 }
 
 .headquarter {
     width: 342px;
     height: 273px;
-    background-color: #ffffff;
-    color: #0f5f5c;
-    border: 2px dashed #c1d3d2;
     padding: 40px;
+    color: #0f5f5c;
+    background-color: #ffffff;
+    border: 2px dashed #c1d3d2;
     justify-content: space-between;
 }
 
 .headquarter_title {
     font-size: 22px;
-    line-height: 25px;
     font-weight: 300;
+    line-height: 25px;
 }
 
 .headquarter_block {
@@ -147,12 +140,11 @@ form textarea::placeholder {
 }
 
 .phone_numb, .mail_address, .address {
-    margin-left: 10px;
-    font-size: 15px;
-    line-height: 21px;
     color: #83a7a5;
+    font-size: 15px;
     font-weight: 400;
-    font-family: "Roboto", sans-serif;
+    margin-left: 10px;
+    line-height: 21px;
 }
 
 .mail_address {

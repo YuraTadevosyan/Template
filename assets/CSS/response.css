@@ -49,7 +49,7 @@
         justify-content: space-around;
     }
 
-    .testimonials_inner{
+    .testimonials_inner {
         justify-content: space-around;
     }
 }
@@ -96,7 +96,7 @@
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-    .main_title, .down_cont_text p:nth-child(1), .intro_title {
+    .main_title, .down_cont_text p:nth-child(1), .intro_title, .intro_title > h2 , .main_title > h2{
         font-size: 25px;
     }
 
@@ -167,8 +167,8 @@
 
 @media (max-width: 1399px) {
     .world {
-        background-blend-mode: luminosity;
         background-position: center;
+        background-blend-mode: luminosity;
     }
 
     .world_inner {
@@ -202,8 +202,8 @@
 @media (max-width: 946px) {
 
     .form_headquarter {
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
     }
 }
 
@@ -213,7 +213,13 @@
         width: 300px;
     }
 
-    .headquarter{
+    .headquarter {
         width: 100%;
+    }
+}
+
+@media (max-width: 333px) {
+    .form input, form textarea {
+        width: 260px;
     }
 }
